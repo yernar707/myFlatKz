@@ -1,8 +1,5 @@
 import * as React from "react"
 import Seo from "../components/seo"
-
-const isBrowser = () => typeof window !== "undefined"
-isBrowser()
 const NotFoundPage = () => (
   
   <div>
