@@ -3,9 +3,12 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+const isBrowser = () => typeof window !== "undefined"
+isBrowser()
+
 const NotFoundPage = () => (
   React.useEffect(() => {
-   if (typeof window === "undefined" || !window.document) {
+   if (typeof window === "undefined") {
      console.log(`bailing out of the useeffect. Going to continue to render??`)
      return
    }
