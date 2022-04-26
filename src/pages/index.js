@@ -23,7 +23,7 @@ const settings = {
   }
   
 
-const isBrowser = typeof window !== "undefined"
+const isBrowser = typeof document !== "undefined"
 
 const HomePage = ({ data }) => {
     
