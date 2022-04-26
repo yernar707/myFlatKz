@@ -23,11 +23,7 @@ const settings = {
   }
   
 
-if (typeof window !== 'undefined') {
-    window.jQuery = window.$ = require('jquery');
-    require('bootstrap');
-}
-
+const isBrowser = typeof window !== "undefined"
 
 const HomePage = ({ data }) => {
     
