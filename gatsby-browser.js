@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import "@popperjs/core/dist/umd/popper.min.js";
 import "@fontsource/open-sans"
 import 'react-number-format';
 import "react-slick";
