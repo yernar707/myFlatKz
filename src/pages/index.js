@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link, graphql, withPrefix } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/js/bootstrap.min.js";
 import Slider from "react-slick";
 
 import Layout from "../components/layout"
