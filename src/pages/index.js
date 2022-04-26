@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql, withPrefix } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from "react-slick";
 
 import Layout from "../components/layout"
@@ -22,6 +23,11 @@ const settings = {
     arrows: true,
   }
   
+
+if (typeof window !== 'undefined') {
+    window.jQuery = window.$ = require('jquery');
+    require('bootstrap');
+}
 
 
 const HomePage = ({ data }) => {
